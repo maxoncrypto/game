@@ -1,0 +1,44 @@
+.text-link {
+    color: rgba(51, 51, 51, 0.6);
+}
+
+.calculator-input-field {
+    width: 100%;
+}
+
+.indicator.link {
+    flex-grow: 1;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.padding-sides-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.children-grow > * {
+    flex-grow: 1;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.children-shrink > * {
+    flex-shrink: 1;
+}
+
+.new-bage {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 8px 24px;
+    color: black;
+    background: #ffdb5e;
+    border-radius: 999px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+}
